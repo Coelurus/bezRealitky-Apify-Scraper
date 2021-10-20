@@ -1,0 +1,323 @@
+{
+  "usableSessionsCount": 9,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_bveYkAFIkf",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:07:59.794Z",
+      "createdAt": "2021-10-17T10:17:59.794Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_B2bCkkwuC7",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": [
+          {
+            "key": "_dc_gtm_UA-2722197-15",
+            "value": "1",
+            "expires": "2021-10-17T10:19:07.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.449Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_gid",
+            "value": "GA1.2.883087370.1634465887",
+            "expires": "2021-10-18T10:18:36.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.469Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_gcl_au",
+            "value": "1.1.353180103.1634465897",
+            "expires": "2022-01-15T10:18:16.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.473Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "__gfp_64b",
+            "value": "BNghI6hFv9B1HWBNIEybfEyiagNKoJ5sG2Z8Nf6lJjj.C7|1634465886",
+            "expires": "2022-11-16T10:18:06.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.474Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_ga_78TQMWPZTE",
+            "value": "GS1.1.1634465885.1.1.1634465912.0",
+            "expires": "2023-10-17T10:18:32.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.475Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_ga",
+            "value": "GA1.2.1882454250.1634465886",
+            "expires": "2023-10-17T10:18:36.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.476Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "lastSearchParams",
+            "value": "%5B%7B%22advertOfferType%22%3A%5B%22estate_offer_prodej%22%5D%2C%22estateType%22%3A%5B%22byt%22%5D%2C%22region%22%3A%22161%22%2C%22project%22%3A%5B0%5D%2C%22param_orderDesc%22%3Atrue%7D%5D",
+            "expires": "2021-10-17T11:08:17.448Z",
+            "domain": "www.bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.477Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "PHPSESSID",
+            "value": "qgerd7qk49ffhis32fnkl5vpoo",
+            "expires": "2021-10-17T22:18:03.239Z",
+            "domain": "www.bezrealitky.cz",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:17.478Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "__gads",
+            "value": "ID=33afa1a3d68438ed-22789262dbcb005f:T=1634465913:RT=1634465913:S=ALNI_MbCxmreVWuxEaCNO34Iplj-C2k5UA",
+            "expires": "2022-11-11T10:18:33.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.607Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "sid",
+            "value": "id=16112202364846841820|t=1634465900.684|te=1634465912.342|c=454AC284E9C1FB54294CC8950636D084",
+            "expires": "2021-10-20T10:18:31.000Z",
+            "domain": "www.bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.612Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "udid",
+            "value": "Id9r_idEYpvSQF3BgyZ1yI8bnTwYEr9V@1634465902938@1634465902938",
+            "expires": "2021-11-16T10:18:22.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.620Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_gat_chatbot",
+            "value": "1",
+            "expires": "2021-10-17T10:19:19.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.620Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_clck",
+            "value": "1yocezm|1|evn|0",
+            "expires": "2022-10-17T10:18:18.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.622Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_clsk",
+            "value": "1dn6dbc|1634465921457|2|1|b.clarity.ms/collect",
+            "expires": "2021-10-18T10:18:41.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.623Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "_fbp",
+            "value": "fb.1.1634465898416.448370665",
+            "expires": "2022-01-15T10:18:40.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:36.625Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          },
+          {
+            "key": "cto_bundle",
+            "value": "JIDt4F9ZdGJOcEdnSE9vcGslMkIlMkI1TTAyUmFTbVdCU2pxbEl4emN5JTJGNTR5M2xMbUJXNmo1V0FDQ1dIeXVUcTZ1dHl6WjhnNEVQVVl2OFhoWkk5aEtFdlFoVVclMkZ1dk5XcmJDbzd6UTM2RjluUk1CM0x2WWV2VCUyRjlqRmhLbEpxTlF4QWMzbmRyQmpwR1huaHJ3aXFJeWhDb3d3azY3NVVDWFlPN1JPeUxIcXBMNEVLVlhBeXRHRE1YNHA2NUd4bTk2M2lqdVdYOUk4dDlWY3BrUUglMkZQWEdSWVh6MXB3JTNEJTNE",
+            "expires": "2022-11-11T10:18:40.000Z",
+            "domain": "bezrealitky.cz",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2021-10-17T10:18:46.124Z",
+            "lastAccessed": "2021-10-17T10:18:52.263Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:07:59.799Z",
+      "createdAt": "2021-10-17T10:17:59.799Z",
+      "usageCount": 2,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Zi1cvtLGeN",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:17.855Z",
+      "createdAt": "2021-10-17T10:18:17.855Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_jGyFyPnTot",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:17.865Z",
+      "createdAt": "2021-10-17T10:18:17.865Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_LEY3xUumfX",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:19.858Z",
+      "createdAt": "2021-10-17T10:18:19.858Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_gdOdNKuKmA",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:29.864Z",
+      "createdAt": "2021-10-17T10:18:29.863Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_463Us2hsgx",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:47.900Z",
+      "createdAt": "2021-10-17T10:18:47.900Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_BSbePeYGOZ",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:51.934Z",
+      "createdAt": "2021-10-17T10:18:51.934Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_8Iz62zHSmA",
+      "cookieJar": {
+        "version": "tough-cookie@4.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2021-10-17T11:08:51.937Z",
+      "createdAt": "2021-10-17T10:18:51.937Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
