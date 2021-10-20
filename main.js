@@ -10,9 +10,11 @@ function removeChars(string){
 }
 
 Apify.main(async () => {
-    const input = await Apify.getInput()
-    var advertTypeList = ["prodej", "pronajem", "spolubydleni"];
-    var propTypeList = ["byt", "dum", "pozemek", "garaz", "kancelar", "nebytovy-prostor", "chata-chalupa"];    
+    var input = await Apify.getInput();
+    var input1 = input["advertTypeList"];
+    var input2 = input["propTypeList"];
+    var advertTypeList = [input1];
+    var propTypeList = [input2];    
 
     for(var advertType in advertTypeList)
     {
@@ -24,8 +26,7 @@ Apify.main(async () => {
             {
                 const requestQueue = await Apify.openRequestQueue();
                 var urlString = 'https://www.bezrealitky.cz/vypis/nabidka-'+advertTypeList[advertType]+'/'+propTypeList[propType]+'?page=' + String(pageNumber);
-                await requestQueue.addRequest
-                ({ 
+                await requestQueue.addRequest({ 
                     url: urlString,
                     userData: {label: "START"} 
                 });
@@ -81,27 +82,27 @@ Apify.main(async () => {
                         var dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
                             return els[2].textContent;
                         })
-                        rooms = removeChars(dispozition);
+                        var rooms = removeChars(dispozition);
 
-                        var dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
+                        dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
                             return els[3].textContent;
                         })
-                        state = removeChars(dispozition);
+                        var state = removeChars(dispozition);
 
-                        var dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
+                        dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
                             return els[4].textContent;
                         })
-                        surface = removeChars(dispozition);
+                        var surface = removeChars(dispozition);
 
-                        var dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
+                        dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
                             return els[7].textContent;
                         })
-                        ownerType = removeChars(dispozition);
+                        var ownerType = removeChars(dispozition);
 
-                        var dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
+                        dispozition = await page.$$eval('#detail-parameters .row.pl-md-4  .col.col-6.param-value', (els) => {
                             return els[8].textContent;
                         })
-                        buildingType = removeChars(dispozition);
+                        var buildingType = removeChars(dispozition);
 
 
                             await Apify.pushData({
