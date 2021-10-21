@@ -10,6 +10,7 @@ function removeChars(string){
 }
 
 Apify.main(async () => {
+    console.log("Hello from git");
     var input = await Apify.getInput();
     var input1 = input["advertTypeList"];
     var input2 = input["propTypeList"];
